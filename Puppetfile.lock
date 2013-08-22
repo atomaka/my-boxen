@@ -24,6 +24,16 @@ GITHUBTARBALL
     dnsmasq (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-dropbox
+  specs:
+    dropbox (1.1.1)
+
+GITHUBTARBALL
+  remote: boxen/puppet-firefox
+  specs:
+    firefox (1.1.2)
+
+GITHUBTARBALL
   remote: boxen/puppet-gcc
   specs:
     gcc (2.0.1)
@@ -52,6 +62,11 @@ GITHUBTARBALL
   remote: boxen/puppet-league_of_legends
   specs:
     league_of_legends (1.1.2)
+
+GITHUBTARBALL
+  remote: boxen/puppet-libreoffice
+  specs:
+    libreoffice (4.1.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-minecraft
@@ -149,6 +164,8 @@ DEPENDENCIES
   boxen (= 3.0.1)
   chrome (= 1.1.1)
   dnsmasq (= 1.0.0)
+  dropbox (= 1.1.1)
+  firefox (= 1.1.2)
   gcc (= 2.0.1)
   git (= 1.2.5)
   homebrew (= 1.4.1)
@@ -156,6 +173,7 @@ DEPENDENCIES
   inifile (= 1.0.0)
   iterm2 (= 1.0.3)
   league_of_legends (= 1.1.2)
+  libreoffice (= 4.1.0)
   minecraft (= 1.0.1)
   nginx (= 1.4.2)
   nodejs (= 3.2.9)

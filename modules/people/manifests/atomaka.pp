@@ -11,8 +11,11 @@ class people::atomaka {
   include vagrant
   include wget
   include skype
-  include league_of_legends
+  include league_of_legends::na
   include minecraft
+  include dropbox
+  include firefox
+  include libreoffice
 
   package { 'coreutils': }
   package { 'tig': }
