@@ -11,6 +11,8 @@ class people::atomaka {
   include vagrant
   include wget
   include skype
+  include league_of_legends
+  include minecraft
 
   package { 'coreutils': }
   package { 'tig': }

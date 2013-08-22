@@ -49,6 +49,16 @@ GITHUBTARBALL
     iterm2 (1.0.3)
 
 GITHUBTARBALL
+  remote: boxen/puppet-league_of_legends
+  specs:
+    league_of_legends (1.1.2)
+
+GITHUBTARBALL
+  remote: boxen/puppet-minecraft
+  specs:
+    minecraft (1.0.1)
+
+GITHUBTARBALL
   remote: boxen/puppet-nginx
   specs:
     nginx (1.4.2)
@@ -145,6 +155,8 @@ DEPENDENCIES
   hub (= 1.0.3)
   inifile (= 1.0.0)
   iterm2 (= 1.0.3)
+  league_of_legends (= 1.1.2)
+  minecraft (= 1.0.1)
   nginx (= 1.4.2)
   nodejs (= 3.2.9)
   openssl (= 1.0.0)
