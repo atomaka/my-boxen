@@ -1,5 +1,5 @@
 class people::atomaka::dotfiles {
-  $home = ${atomaka::people::home}
+  $home = $people::atomaka::home
   $dotfiles = "${home}/dotfiles"
   $vim = "${home}/.vim"
 

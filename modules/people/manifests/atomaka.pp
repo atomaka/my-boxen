@@ -10,4 +10,7 @@ class people::atomaka {
   include skype
 
   package { 'coreutils': }
+
+  include atomaka::dotfiles
+  include atomaka::osx::config
 }
