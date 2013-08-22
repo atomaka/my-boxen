@@ -16,6 +16,7 @@ class people::atomaka {
 
   package { 'coreutils': }
   package { 'tig': }
+  package { 'vim': }
 
   include atomaka::dotfiles
   include atomaka::osx::config
