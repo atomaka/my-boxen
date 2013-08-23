@@ -23,4 +23,8 @@ class people::atomaka {
 
   include atomaka::dotfiles
   include atomaka::osx::config
+
+  file { "${home}/Source":
+    ensure => directory,
+  }
 }
