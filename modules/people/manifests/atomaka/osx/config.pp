@@ -17,4 +17,9 @@ class people::atomaka::osx::config {
   exec { 'killall SystemUIServer':
     refreshonly => true,
   }
+
+  exec { 'Toggles Whether the Firewall is Enabled':
+    command => "/usr/libexec/ApplicationFirewall/socketfilterfw --setglobalstate on",
+    user    => root,
+  }
 }
