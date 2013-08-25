@@ -16,6 +16,7 @@ class people::atomaka {
   include dropbox
   include firefox
   include libreoffice
+  include qt
 
   package { 'coreutils': }
   package { 'tig': }
