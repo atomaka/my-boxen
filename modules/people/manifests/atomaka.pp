@@ -28,4 +28,7 @@ class people::atomaka {
   file { "${home}/Source":
     ensure => directory,
   }
+  class { 'nodejs::global':
+    version => 'v0.10'
+  }
 }
