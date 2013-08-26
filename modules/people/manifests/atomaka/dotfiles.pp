@@ -24,6 +24,12 @@ class people::atomaka::dotfiles {
     require => Repository[$dotfiles],
   }
 
+  file { "${vim}/plugin":
+    ensure => link,
+    target => "${dotfiles}/.vim/plugin",
+    require => Repository[$dotfiles],
+  }
+
   file { "${vim}/colors":
     ensure => directory,
     require => Repository[$dotfiles],
