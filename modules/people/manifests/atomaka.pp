@@ -17,6 +17,7 @@ class people::atomaka {
   include firefox
   include libreoffice
   include qt
+  include python
 
   package { 'coreutils': }
   package { 'tig': }
