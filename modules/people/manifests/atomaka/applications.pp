@@ -16,4 +16,5 @@ class people::atomaka::applications {
   include libreoffice
   include qt
   include python
+  include caffeine
 }
