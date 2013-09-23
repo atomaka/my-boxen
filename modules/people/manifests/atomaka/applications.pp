@@ -17,4 +17,5 @@ class people::atomaka::applications {
   include qt
   include python
   include caffeine
+  include tunnelblick
 }
