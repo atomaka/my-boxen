@@ -22,4 +22,12 @@ class people::atomaka::osx::config {
     command => "/usr/libexec/ApplicationFirewall/socketfilterfw --setglobalstate on",
     user    => root,
   }
+
+  boxen::osx_defaults { 'Toggle Whether Dashboard is Enabled':
+    user   => $::boxen_user,
+    key    => 'mcx-disabled',
+    domain => 'com.apple.dashboard',
+    value  => true,
+    notify => Exec['killall Dock'],
+  }
 }
