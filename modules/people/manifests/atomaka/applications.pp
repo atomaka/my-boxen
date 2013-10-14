@@ -18,4 +18,5 @@ class people::atomaka::applications {
   include python
   include caffeine
   include tunnelblick
+  include whatpulse
 }
