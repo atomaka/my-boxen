@@ -19,4 +19,5 @@ class people::atomaka::applications {
   include caffeine
   include tunnelblick
   include whatpulse
+  include vlc
 }
