@@ -4,6 +4,8 @@ class people::atomaka {
   package { 'coreutils': }
   package { 'tig': }
   package { 'vim': }
+  package { 'rdesktop': }
+  package { 'imagemagick': }
 
   include atomaka::dotfiles
   include atomaka::osx::config

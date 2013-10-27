@@ -9,6 +9,11 @@ GITHUBTARBALL
     adium (1.1.1)
 
 GITHUBTARBALL
+  remote: boxen/puppet-alfred
+  specs:
+    alfred (1.1.6)
+
+GITHUBTARBALL
   remote: boxen/puppet-autoconf
   specs:
     autoconf (1.0.0)
@@ -190,6 +195,7 @@ GITHUBTARBALL
 
 DEPENDENCIES
   adium (= 1.1.1)
+  alfred (= 1.1.6)
   autoconf (= 1.0.0)
   boxen (= 3.0.1)
   caffeine (= 1.0.0)

@@ -20,4 +20,5 @@ class people::atomaka::applications {
   include tunnelblick
   include whatpulse
   include vlc
+  include alfred
 }
