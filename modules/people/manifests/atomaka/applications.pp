@@ -21,4 +21,5 @@ class people::atomaka::applications {
   include whatpulse
   include vlc
   include alfred
+  include eclipse::jee
 }
