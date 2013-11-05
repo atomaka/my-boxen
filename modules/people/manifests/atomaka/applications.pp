@@ -22,4 +22,5 @@ class people::atomaka::applications {
   include vlc
   include alfred
   include eclipse::jee
+  include spotify
 }
