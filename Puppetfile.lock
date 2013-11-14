@@ -149,11 +149,6 @@ GITHUBTARBALL
     sudo (1.0.0)
 
 GITHUBTARBALL
-  remote: boxen/puppet-thunderbird
-  specs:
-    thunderbird (1.0.1)
-
-GITHUBTARBALL
   remote: boxen/puppet-tmux
   specs:
     tmux (1.0.2)
@@ -235,7 +230,6 @@ DEPENDENCIES
   spotify (= 1.0.1)
   stdlib (= 4.1.0)
   sudo (= 1.0.0)
-  thunderbird (= 1.0.1)
   tmux (= 1.0.2)
   tunnelblick (= 1.0.2)
   vagrant (= 3.0.0)

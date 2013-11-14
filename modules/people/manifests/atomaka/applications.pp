@@ -4,7 +4,6 @@ class people::atomaka::applications {
   include iterm2::stable
   include zsh
   include adium
-  include thunderbird
   include virtualbox
   include vagrant
   include wget
