@@ -1,8 +1,11 @@
 class people::atomaka::osx::config {
+  osx::recovery_message { 'If this Mac is found, please call 734-732-5086': }
+
   class { 'osx::dock::icon_size':
     size => 36
   }
 
+  include osx::global::expand_save_dialog
   include osx::finder::show_all_on_desktop
   include osx::dock::clear_dock
 

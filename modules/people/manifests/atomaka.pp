@@ -2,11 +2,10 @@ class people::atomaka {
   $home = "/Users/${::boxen_user}"
 
   package { 'coreutils': }
+  package { 'mobile-shell': }
+  package { 'rdesktop': }
   package { 'tig': }
   package { 'vim': }
-  package { 'rdesktop': }
-  package { 'imagemagick': }
-  package { 'mobile-shell': }
 
   include atomaka::dotfiles
   include atomaka::osx::config

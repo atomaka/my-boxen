@@ -1,25 +1,23 @@
 class people::atomaka::applications {
-  include chrome
-  include tmux
-  include iterm2::stable
-  include zsh
   include adium
-  include virtualbox
-  include vagrant
-  include wget
-  include skype
-  include league_of_legends::na
-  include minecraft
+  include alfred
+  include caffeine
+  include chrome
   include dropbox
   include firefox
+  include iterm2::stable
+  include league_of_legends::na
   include libreoffice
-  include qt
   include python
-  include caffeine
-  include tunnelblick
-  include whatpulse
-  include vlc
-  include alfred
-  include eclipse::jee
+  include skype
   include spotify
+  include tmux
+  include tunnelblick
+  include qt
+  include vagrant
+  include virtualbox
+  include vlc
+  include wget
+  include whatpulse
+  include zsh
 }
