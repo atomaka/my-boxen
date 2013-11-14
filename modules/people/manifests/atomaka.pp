@@ -6,6 +6,7 @@ class people::atomaka {
   package { 'vim': }
   package { 'rdesktop': }
   package { 'imagemagick': }
+  package { 'mobile-shell': }
 
   include atomaka::dotfiles
   include atomaka::osx::config
