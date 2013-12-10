@@ -7,7 +7,7 @@ class people::atomaka::applications {
   include firefox
   include iterm2::stable
   include league_of_legends::na
-  include libreoffice
+  #include libreoffice
   include python
   include skype
   include spotify
