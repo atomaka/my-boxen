@@ -1,7 +1,7 @@
 GITHUBTARBALL
   remote: atomaka/puppet-whatpulse
   specs:
-    whatpulse (0.1.0)
+    whatpulse (0.1.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-adium
@@ -242,7 +242,7 @@ DEPENDENCIES
   virtualbox (= 1.0.9)
   vlc (= 1.0.5)
   wget (= 1.0.0)
-  whatpulse (= 0.1.0)
+  whatpulse (= 0.1.1)
   xquartz (= 1.1.0)
   zsh (= 1.0.0)
 
