@@ -41,6 +41,12 @@ class people::atomaka::dotfiles {
     require => [Repository[$dotfiles], File["${vim}/colors"]],
   }
 
+  file { "${home}/.zsh":
+    ensure => link,
+    target => "${dotfiles}/.zsh",
+    require => Repository[$dotfiles],
+  }
+
   file { "${home}/.zshrc":
     ensure => link,
     target => "${dotfiles}/.zshrc",
