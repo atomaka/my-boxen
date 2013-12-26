@@ -11,6 +11,7 @@ class people::atomaka::applications {
   include python
   include skype
   include spotify
+  include sublime_text_2
   include tmux
   include tunnelblick
   include qt
