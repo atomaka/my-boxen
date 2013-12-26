@@ -5,6 +5,7 @@ class people::atomaka::applications {
   include chrome
   include dropbox
   include firefox
+  include heroku
   include iterm2::stable
   include league_of_legends::na
   #include libreoffice
