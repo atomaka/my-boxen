@@ -13,6 +13,12 @@ class people::atomaka::dotfiles {
     require => Repository[$dotfiles],
   }
 
+  file { "${home}/.gemrc":
+    ensure  => link,
+    target => "${dotfiles}/.gemrc",
+    require => Repository[$dotfiles],
+  }
+
   file { "${vim}/bundle":
     ensure => directory,
     require => Repository[$dotfiles],
