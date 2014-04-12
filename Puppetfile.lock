@@ -44,6 +44,11 @@ GITHUBTARBALL
     firefox (1.1.5)
 
 GITHUBTARBALL
+  remote: boxen/puppet-flux
+  specs:
+    flux (1.0.1)
+
+GITHUBTARBALL
   remote: boxen/puppet-foreman
   specs:
     foreman (1.0.0)
@@ -222,6 +227,7 @@ DEPENDENCIES
   dnsmasq (= 1.0.0)
   dropbox (= 1.2.0)
   firefox (= 1.1.5)
+  flux (= 1.0.1)
   foreman (= 1.0.0)
   gcc (= 2.0.1)
   git (= 1.2.5)
